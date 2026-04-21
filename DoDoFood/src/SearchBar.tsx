@@ -11,7 +11,7 @@ const SearchBar = ({ setSearch }) => {
           padding: "10px",
           width: "250px",
           borderRadius: "8px",
-          border: "1px solid #ccc",
+          border: "1px solid #ccc",c
         }}
       />
     </div>
