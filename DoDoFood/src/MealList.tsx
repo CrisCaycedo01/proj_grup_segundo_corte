@@ -4,7 +4,7 @@ const MealList = () => {
   const [meals, setMeals] = useState([]);
 
   useEffect(() => {
-    fetch("https://www.themealdb.com/api/json/v1/1/search.php?s=")
+    fetch("https://www.themealdb.com/api/json/v1/1/search.php?s=") //API principal
       .then((res) => res.json())
       .then((data) => {
         setMeals(data.meals || []);
