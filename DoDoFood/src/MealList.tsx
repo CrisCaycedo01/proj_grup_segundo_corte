@@ -11,7 +11,7 @@ const MealList = () => {
       })
       .catch((error) => console.error(error));
   }, []);
-
+// UXUI
   return (
     <div style={{ padding: "2rem" }}>
       <h2>Recetas</h2>
@@ -47,3 +47,4 @@ const MealList = () => {
 };
 
 export default MealList;
+
